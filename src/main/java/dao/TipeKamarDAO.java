@@ -18,7 +18,7 @@ public class TipeKamarDAO {
         return list;
     }
 
-    // Fungsi baru untuk mendapatkan ID berdasarkan Nama Tipe Kamar dari Combo Box
+    
     public int getIdTipeByNama(String namaTipe) throws Exception {
         Connection conn = Koneksi.getKoneksi();
         PreparedStatement pst = conn.prepareStatement("SELECT id_tipe FROM master_tipe_kamar WHERE nama_tipe = ?");

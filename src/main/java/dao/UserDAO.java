@@ -11,7 +11,7 @@ public class UserDAO {
     public String login(String username, String password) throws Exception {
         Connection conn = Koneksi.getKoneksi();
         
-        // Tarik data password ter-hash dari database berdasarkan username
+        
         String sql = "SELECT nama_lengkap, password FROM users WHERE username=?";
         PreparedStatement pst = conn.prepareStatement(sql);
         pst.setString(1, username);

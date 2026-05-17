@@ -9,7 +9,7 @@ import config.Koneksi;
 
 public class KamarDAO {
     
-    // Menarik semua data kamar (Default)
+    
     public List<Object[]> getAllKamar() throws Exception {
         List<Object[]> list = new ArrayList<>();
         Connection conn = Koneksi.getKoneksi();
