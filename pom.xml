@@ -3,7 +3,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.rizuku</groupId>
     <artifactId>reservasihotel</artifactId>
-    <version>2.2 MASTER</version>
+    <version>2.4 MASTER</version>
     <packaging>jar</packaging>
     
     <properties>
